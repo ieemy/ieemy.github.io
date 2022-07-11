@@ -22,17 +22,17 @@
       </div>
 
       <ul id="top-menu-bar">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Languages</a></li>
+        <li><a href="#" onclick="showHomePage()">Home</a></li>
+        <li><a href="#" onclick="showSkillsPage()">Skills</a></li>
+        <li><a href="#" onclick="showProjectsPage()">Projects</a></li>
+        <li><a href="#" onclick="showLanguagesPage()">Languages</a></li>
       </ul>
     </header>
 
     <section id="content">
       <div id="side-menu">
         <section>
-          <h2>Contact Form</Form></h2>
+          <h2>Contact Form</h2>
           <form action="" method="get">
             <label for="userEmail">Email</label>
             <input
@@ -48,15 +48,16 @@
         <section>M2</section>
       </div>
       <div id="main">
-        <div class="page">
+        <div id="home" class="page">
           <h2>Home</h2>
-          <p>Bine ati venit !
-            <br>
+          <p>
+            Bine ati venit !
+            <br />
             About me ...
           </p>
         </div>
-        
-        <div class="page">
+
+        <div id="skills" class="page">
           <h2>Skills</h2>
           <ul>
             <li class="favorite">html</li>
@@ -65,11 +66,11 @@
           </ul>
         </div>
 
-        <div class="page">
+        <div id="projects" class="page">
           <h2>Projects</h2>
         </div>
 
-        <div class="page">
+        <div id="languages" class="page">
           <h2>Know languages</h2>
           <table border="1">
             <tr>
@@ -96,6 +97,7 @@
     <footer>
       <p style="text-align: center; color: #fff">
         <a href="https://www.viki.com/">Viki</a>
+        <a href="https://github.com/ieemy">GitHub</a>
         2022
       </p>
     </footer>
