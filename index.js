@@ -30,7 +30,7 @@ function showPage(id) {
 }
 
 function hideAllPages() {
-  showPage("home");
+  hidePage("home");
   hidePage("skills");
   hidePage("projects");
   hidePage("languages");
