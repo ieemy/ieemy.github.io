@@ -29,22 +29,15 @@ function show(id) {
   document.getElementById(id).style.display = "block";
 }
 
-function hideAllPages() {
-  hide("home");
-  hide("skills");
-  hide("projects");
-  hide("languages");
-}
-
 var activePage = "home";
 
-function showPage(id) {
-  // console.warn("pls show me this page", id);
-  hideAllPages();
-  show(id);
+function showPage(nextPage) {
+  // console.warn("change", activePage, "to", nextPage);
+  hide(activePage);
+  show(nextPage);
   document.getElementById("menu-" + activePage).classList.remove("active");
-  document.getElementById("menu-" + id).classList.add("active");
-  activePage = id;
+  document.getElementById("menu-" + nextPage).classList.add("active");
+  activePage = nextPage;
 }
 
 showPage(activePage);
