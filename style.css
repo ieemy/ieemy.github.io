@@ -16,6 +16,9 @@ body {
 #side-menu {
   flex: 2;
 }
+#side-menu a {
+  color: #0096d6;
+}
 #side-menu > section h2 {
   margin: 0 0 10px 0;
   color: rgba(119, 0, 255, 0.788);
