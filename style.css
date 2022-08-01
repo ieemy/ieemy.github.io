@@ -16,7 +16,7 @@ body {
 #side-menu {
   flex: 2;
 }
-#side-menu a {
+#main a {
   color: #0096d6;
 }
 #side-menu > section h2 {
